@@ -1,10 +1,99 @@
-#greeting {
-  font-size: 2em;
-  font-family: sans-serif;
-  font-weight: bold;
-  color: white;
-  text-shadow: 0 0 5px #333;
+#container {
+  width: 940px; /* 컨테이너 너비 */
+  padding: 20px; /* 패딩 */
+  margin: 0 auto; /* 화면 중앙에 배치 */
+}
+
+#header {
+  background-color: #c3dbec;
   text-align: center;
-  margin: 0.5em;
-  padding: 0.5em;
+  padding: 20px;
+  /* 패딩 */
+  margin-bottom: 20px;
+  /* 아래 요소들과의 간격(마진) */
+}
+
+#userInput {
+  padding: 5px 20px; /* 패딩 */
+  margin-bottom: 20px; /* 아래 요소와의 간격 */
+  height: 370px;
+  background-color: #81b3da;
+}
+
+#timeline {
+  margin-top: 15px;
+  background-color: #81b3da;
+}
+
+.refresh {
+  padding: 20px; /* 패딩 */
+  clear: both;
+  background-color: #2a56b3;
+}
+
+#list {
+  padding: 20px;
+  height: 370px;
+  background-color: #cfebf7;
+}
+
+#name {
+  width: 356px;
+  height: 40px;
+}
+
+.label {
+  margin-bottom: 2px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.comment {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+ul {
+  /* ul 왼쪽 여백 없애는거 */
+  -webkit-padding-start: 0px;
+  padding: 20px;
+}
+li {
+  list-style: none;
+  border-bottom: 1px solid gray;
+}
+
+.btn {
+  display: block;
+  width: 160px;
+  height: 40px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.btn2 {
+  width: 150px;
+  margin: 0;
+}
+
+.twitt-username {
+  margin-top: 5px;
+  font-weight: 700;
+  display: inline-block;
+  width: 70%;
+}
+.twitt-date {
+  display: inline-block;
+  width: 29%;
+  text-align: right;
+}
+.twitt-text {
+  margin-top: 10px;
+  padding-bottom: 20px;
 }
